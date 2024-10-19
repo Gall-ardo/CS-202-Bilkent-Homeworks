@@ -1,12 +1,3 @@
-/**
-* Title: Binary Search Trees
-* Author : Halil Arda Özongun
-* ID: 22202709
-* Section : 1
-* Homework : 1
-* Description : This is a template class for stack implementation, it has push, pop, isEmpty, clear and top functions.
-*/
-
 #ifndef STACK_H
 #define STACK_H
 

@@ -10,6 +10,5 @@ add_executable(CS202_HW1 main.cpp
         analysis.h
         queue.h
         Node.h
-        stack.h
         linkedList.h
 )
