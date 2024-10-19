@@ -9,7 +9,8 @@
 * findFullBTLevel, lowestCommonAncestor, maximumSumPath, maximumWidth, pathFromAtoB.
 * For analysis part, calculateTreeHeight function is also added.
 * It has helper functions which I defined to help other functions:
-* .......................................writethere...........
+* checkIfKeyExists, insertKeyHelper, displayInorderHelper, deleteKeyHelper,
+* checkIfKeyExistsHelper, processLeftMost, deleteTree, lowestCommonAncestorHelper.
 */
 
 #ifndef BST_H
@@ -18,6 +19,8 @@
 #include <iostream>
 using namespace std;
 #include "Node.h"
+#include "LinkedList.h"
+#include "queue.h"
 
 
 class BST {
@@ -30,6 +33,8 @@ private:
     void processLeftMost(Node*& root, Node*& temp);
     void deleteTree(Node* root);
     Node* lowestCommonAncestorHelper( int A, int B);
+    void pathfromLCAtoN(int N,Node* LCA, LinkedList<int>* path);
+
 
 public:
     Node *root;
@@ -50,9 +55,6 @@ public:
     int calculateTreeHeight(Node* root);
 
 };
-
-
-
 
 
 #endif //BST_H

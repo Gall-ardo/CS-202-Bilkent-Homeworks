@@ -1,6 +1,3 @@
-//
-// Created by Msı on 8.10.2024.
-//
 /**
 * Title: Binary Search Trees
 * Author : Halil Arda Özongun
@@ -22,6 +19,8 @@ void analysis::timeAnalysis() {
 
     int numbers[10000];
     bool exists[10000] = {false};
+
+    // fills the numbers array, with numbers from 0 to 9999 in random order
     for (int i = 0; i < 10000; i++) {
         int num = rand() % 10000;
         while (exists[num]) {
@@ -33,6 +32,7 @@ void analysis::timeAnalysis() {
 
     BST bst;
 
+
     for (int i = 0; i < 10; ++i) {
         clock_t start = clock();
 
@@ -42,7 +42,7 @@ void analysis::timeAnalysis() {
         }
 
         clock_t end = clock();
-        double elapsed_time = double(end - start) / CLOCKS_PER_SEC;
+        double elapsed_time = double(end - start) / (double) CLOCKS_PER_SEC;
 
         // Calculate tree height
         int height = bst.calculateTreeHeight(bst.root);

@@ -1,6 +1,22 @@
 #include "BST.h"
 #include "analysis.h"
 
+
+int main() {
+
+    int keys[] = {11,7,20,5,9,15,22,2,12,18,24,3,19,4,8,10,21,6};
+    int size = 18;
+    BST bst(keys, size);
+    bst.findFullBTLevel();
+
+    //bst.displayInorder();
+
+
+    return 0;
+}
+
+/*
+
 int main() {
 
     int keys[] = {10,7,20,5,9,15,21,2,12,18,24,3,19};
@@ -21,6 +37,7 @@ int main() {
 
     return 0;
 }
+*/
 
 /*
 BST with size 13 is created.

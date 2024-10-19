@@ -11,11 +11,11 @@
 #define NODE_H
 
 
-
 struct Node {
     int key;
     Node* left;
     Node* right;
+
     // constructor
     Node(int key) {
         this->key = key;
@@ -24,7 +24,5 @@ struct Node {
     }
     Node(){}
 };
-
-
 
 #endif //NODE_H

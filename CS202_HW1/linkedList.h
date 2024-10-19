@@ -16,7 +16,6 @@ class LinkedListNode {
 public:
     T data;
     LinkedListNode* next;
-    
     LinkedListNode(const T& data) : data(data), next(nullptr) {}
 };
 
@@ -107,26 +106,6 @@ public:
         size--;
     }
 
-    /*T& front() {
-        if (empty()) throw std::out_of_range("List is empty");
-        return head->data;
-    }
-
-    const T& front() const {
-        if (empty()) throw std::out_of_range("List is empty");
-        return head->data;
-    }
-
-    T& back() {
-        if (empty()) throw std::out_of_range("List is empty");
-        return tail->data;
-    }
-
-    const T& back() const {
-        if (empty()) throw std::out_of_range("List is empty");
-        return tail->data;
-    }*/
-
     bool empty() const {
         return size == 0;
     }
@@ -156,19 +135,6 @@ public:
         return reversed;
     }
 
-    // Iterator support
-    /*class iterator {
-    private:
-        LinkedListNode<T>* current;
-    public:
-        iterator(LinkedListNode<T>* node) : current(node) {}
-        T& operator*() { return current->data; }
-        iterator& operator++() { current = current->next; return *this; }
-        bool operator!=(const iterator& other) { return current != other.current; }
-    };
-
-    iterator begin() { return iterator(head); }
-    iterator end() { return iterator(nullptr); }*/
 };
 
 #endif // LINKEDLIST_H
