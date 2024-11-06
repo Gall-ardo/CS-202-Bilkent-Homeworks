@@ -55,8 +55,26 @@ build CMakeFiles/CS202_HW2.dir/least5.cpp.obj: CXX_COMPILER__CS202_HW2_unscanned
   OBJECT_DIR = CMakeFiles\CS202_HW2.dir
   OBJECT_FILE_DIR = CMakeFiles\CS202_HW2.dir
 
-build CMakeFiles/CS202_HW2.dir/AVL.cpp.obj: CXX_COMPILER__CS202_HW2_unscanned_Debug C$:/Users/Msı/CLionProjects/202$ HWs/CS202_HW2/AVL.cpp || cmake_object_order_depends_target_CS202_HW2
-  DEP_FILE = CMakeFiles\CS202_HW2.dir\AVL.cpp.obj.d
+build CMakeFiles/CS202_HW2.dir/prefixsubarray.cpp.obj: CXX_COMPILER__CS202_HW2_unscanned_Debug C$:/Users/Msı/CLionProjects/202$ HWs/CS202_HW2/prefixsubarray.cpp || cmake_object_order_depends_target_CS202_HW2
+  DEP_FILE = CMakeFiles\CS202_HW2.dir\prefixsubarray.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CS202_HW2.dir
+  OBJECT_FILE_DIR = CMakeFiles\CS202_HW2.dir
+
+build CMakeFiles/CS202_HW2.dir/game.cpp.obj: CXX_COMPILER__CS202_HW2_unscanned_Debug C$:/Users/Msı/CLionProjects/202$ HWs/CS202_HW2/game.cpp || cmake_object_order_depends_target_CS202_HW2
+  DEP_FILE = CMakeFiles\CS202_HW2.dir\game.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CS202_HW2.dir
+  OBJECT_FILE_DIR = CMakeFiles\CS202_HW2.dir
+
+build CMakeFiles/CS202_HW2.dir/subarray.cpp.obj: CXX_COMPILER__CS202_HW2_unscanned_Debug C$:/Users/Msı/CLionProjects/202$ HWs/CS202_HW2/subarray.cpp || cmake_object_order_depends_target_CS202_HW2
+  DEP_FILE = CMakeFiles\CS202_HW2.dir\subarray.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CS202_HW2.dir
+  OBJECT_FILE_DIR = CMakeFiles\CS202_HW2.dir
+
+build CMakeFiles/CS202_HW2.dir/AVL_Tree.cpp.obj: CXX_COMPILER__CS202_HW2_unscanned_Debug C$:/Users/Msı/CLionProjects/202$ HWs/CS202_HW2/AVL_Tree.cpp || cmake_object_order_depends_target_CS202_HW2
+  DEP_FILE = CMakeFiles\CS202_HW2.dir\AVL_Tree.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\CS202_HW2.dir
   OBJECT_FILE_DIR = CMakeFiles\CS202_HW2.dir
@@ -69,7 +87,7 @@ build CMakeFiles/CS202_HW2.dir/AVL.cpp.obj: CXX_COMPILER__CS202_HW2_unscanned_De
 #############################################
 # Link the executable CS202_HW2.exe
 
-build CS202_HW2.exe: CXX_EXECUTABLE_LINKER__CS202_HW2_Debug CMakeFiles/CS202_HW2.dir/least5.cpp.obj CMakeFiles/CS202_HW2.dir/AVL.cpp.obj
+build CS202_HW2.exe: CXX_EXECUTABLE_LINKER__CS202_HW2_Debug CMakeFiles/CS202_HW2.dir/least5.cpp.obj CMakeFiles/CS202_HW2.dir/prefixsubarray.cpp.obj CMakeFiles/CS202_HW2.dir/game.cpp.obj CMakeFiles/CS202_HW2.dir/subarray.cpp.obj CMakeFiles/CS202_HW2.dir/AVL_Tree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\CS202_HW2.dir

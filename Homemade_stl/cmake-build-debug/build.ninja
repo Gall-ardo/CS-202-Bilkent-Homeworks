@@ -55,6 +55,12 @@ build CMakeFiles/Homemade_stl.dir/main.cpp.obj: CXX_COMPILER__Homemade_stl_unsca
   OBJECT_DIR = CMakeFiles\Homemade_stl.dir
   OBJECT_FILE_DIR = CMakeFiles\Homemade_stl.dir
 
+build CMakeFiles/Homemade_stl.dir/AVL_Tree.cpp.obj: CXX_COMPILER__Homemade_stl_unscanned_Debug C$:/Users/Msı/CLionProjects/202$ HWs/Homemade_stl/AVL_Tree.cpp || cmake_object_order_depends_target_Homemade_stl
+  DEP_FILE = CMakeFiles\Homemade_stl.dir\AVL_Tree.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Homemade_stl.dir
+  OBJECT_FILE_DIR = CMakeFiles\Homemade_stl.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Homemade_stl
@@ -63,7 +69,7 @@ build CMakeFiles/Homemade_stl.dir/main.cpp.obj: CXX_COMPILER__Homemade_stl_unsca
 #############################################
 # Link the executable Homemade_stl.exe
 
-build Homemade_stl.exe: CXX_EXECUTABLE_LINKER__Homemade_stl_Debug CMakeFiles/Homemade_stl.dir/main.cpp.obj
+build Homemade_stl.exe: CXX_EXECUTABLE_LINKER__Homemade_stl_Debug CMakeFiles/Homemade_stl.dir/main.cpp.obj CMakeFiles/Homemade_stl.dir/AVL_Tree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Homemade_stl.dir

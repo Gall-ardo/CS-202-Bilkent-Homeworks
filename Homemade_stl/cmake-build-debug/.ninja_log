@@ -1,0 +1,20 @@
+# ninja log v6
+1	397	7523326703630630	CMakeFiles/Homemade_stl.dir/main.cpp.obj	d5d4d3c6403be8c2
+5	400	7523326703670446	CMakeFiles/Homemade_stl.dir/AVL_Tree.cpp.obj	5afb844c97d2fdbe
+400	503	7523326707626609	Homemade_stl.exe	4325a22c9e09140b
+4	340	7523517912220629	CMakeFiles/Homemade_stl.dir/main.cpp.obj	d5d4d3c6403be8c2
+341	411	7523517915590155	Homemade_stl.exe	4325a22c9e09140b
+5	394	7524559418837159	CMakeFiles/Homemade_stl.dir/main.cpp.obj	d5d4d3c6403be8c2
+9	411	7524559418877168	CMakeFiles/Homemade_stl.dir/AVL_Tree.cpp.obj	5afb844c97d2fdbe
+412	484	7524559422898595	Homemade_stl.exe	4325a22c9e09140b
+4	302	7524560196155733	CMakeFiles/Homemade_stl.dir/main.cpp.obj	d5d4d3c6403be8c2
+303	369	7524560199145993	Homemade_stl.exe	4325a22c9e09140b
+5	327	7524568110186304	CMakeFiles/Homemade_stl.dir/main.cpp.obj	d5d4d3c6403be8c2
+14	349	7524568110267093	CMakeFiles/Homemade_stl.dir/AVL_Tree.cpp.obj	5afb844c97d2fdbe
+349	420	7524568113625798	Homemade_stl.exe	4325a22c9e09140b
+4	325	7524568314492143	CMakeFiles/Homemade_stl.dir/main.cpp.obj	d5d4d3c6403be8c2
+325	392	7524568317706732	Homemade_stl.exe	4325a22c9e09140b
+25	857	7524998257860885	CMakeFiles/Homemade_stl.dir/main.cpp.obj	d5d4d3c6403be8c2
+858	1015	7524998266183755	Homemade_stl.exe	4325a22c9e09140b
+6	627	7524998358146055	CMakeFiles/Homemade_stl.dir/main.cpp.obj	d5d4d3c6403be8c2
+628	728	7524998364366683	Homemade_stl.exe	4325a22c9e09140b
