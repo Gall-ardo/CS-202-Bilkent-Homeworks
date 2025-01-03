@@ -16,33 +16,3 @@ This is the CS 202 HW 2 assignment for Bilkent University, which includes four p
    Finds the smallest subarray where `M` elements from the first array `A` are greater than `K` elements from the second array `B`. The program efficiently determines this subarray within O(N * log N) time.
 
 
-
-## Installation
-1. Ensure you have `g++` installed on your system.
-2. Clone this repository or download the project files. Files are designed to work with input files and output files.
-3. Open the terminal and navigate to the project directory.
-
-## Usage
-1. To build the project, run the following command in the terminal:
-   ```bash
-   make build
-    ```
-   This will generate 4 executables: least5, game, subarray, and prefixsubarray.
-
-2. To run any of the executables, run the following command in the terminal:
-   ```bash
-   ./program_name input_file.txt output_file.txt
-   ```
-
-## Cleaning Up
-To clean up the compiled executables and object files, use:
-```bash
-  make clean
-```
-
-
-## Notes:
-* Input and Output Files: Ensure the input files are properly formatted and contain the data required for the program to run correctly. The output files will show the program results.
-* File Format: Both input and output files must be in .txt format.
-
-
