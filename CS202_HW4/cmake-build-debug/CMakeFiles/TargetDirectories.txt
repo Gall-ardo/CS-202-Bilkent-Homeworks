@@ -1,3 +1,0 @@
-C:/Users/Msı/CLionProjects/202 HWs/CS202_HW4/cmake-build-debug/CMakeFiles/CS202_HW4.dir
-C:/Users/Msı/CLionProjects/202 HWs/CS202_HW4/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Msı/CLionProjects/202 HWs/CS202_HW4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
